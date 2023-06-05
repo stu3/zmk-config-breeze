@@ -12,9 +12,14 @@ if SHIELD_BREEZE_LEFT || SHIELD_BREEZE_RIGHT
 
 config ZMK_SPLIT
     default y
+
 config CONFIG_ZMK_SLEEP
+    bool
     default y
+
 config CONFIG_ZMK_IDLE_SLEEP_TIMEOUT
+    int
     default 3600000
+
 endif
 
