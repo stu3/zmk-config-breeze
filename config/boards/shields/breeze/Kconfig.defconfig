@@ -21,5 +21,10 @@ config CONFIG_ZMK_IDLE_SLEEP_TIMEOUT
     int
     default 3600000
 
+config CONFIG_ZMK_HID_REPORT_TYPE_NKRO
+    int
+    default 5
+
 endif
 
+CONFIG_ZMK_HID_REPORT_TYPE_NKRO = 5
