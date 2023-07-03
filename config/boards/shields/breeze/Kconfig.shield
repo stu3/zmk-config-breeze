@@ -3,4 +3,3 @@ config SHIELD_BREEZE_LEFT
 
 config SHIELD_BREEZE_RIGHT
     def_bool $(shields_list_contains,breeze_right)
-
